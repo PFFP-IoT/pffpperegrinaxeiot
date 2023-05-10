@@ -9,6 +9,7 @@ void setup() {
   LoRaWAN_setup();
   setupGPS();
   setupOLED();
+	ledSetup();
 
   Serial.println("Inicialization sequence complete...");
 }
@@ -33,5 +34,6 @@ void loop() {
   }
   */
   //LoRaWAN_loop();
+ 	ledLoop();
 
 }
