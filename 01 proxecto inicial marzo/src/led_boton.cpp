@@ -1,7 +1,7 @@
 #include "Led_boton.h"
 
-const int LEDOUT=32;
-const int BOTON=33;
+const int LEDOUT=2;
+const int BOTON=23;
 int val;
 
 void ledSetup()
